@@ -40,3 +40,12 @@ O PID vai ser o número antes da barra na útlima coluna.
 
 https://github.com/huogerac/djavue  
 https://github.com/evolutio/djavue2 (original)
+
+
+# Focando apenas em frontend primeiro:
+
+Rode:  
+docker-compose -f docker-compose.yml -f docker-compose.apimock.yml up frontend  
+
+Isso não irá subir o banco nem o back, e você pode focar em desenvolver o front primeiro.
+Use a apimock para ver como os dados se encaixariam sem ter que ficar populando banco desnecessariamente :)
