@@ -1,7 +1,7 @@
 # Passo a passo do primeiro teste:  
   
 1 - Clone o repositório  
-2 - Acesse a pasta clonada (ex.: cd projeto) e depois a pasta do projeto (cd mytodolist)
+2 - Acesse a pasta clonada (ex.: cd projeto)
 3 - Rode os seguintes comandos:  
   
 docker-compose build  
@@ -9,13 +9,14 @@ docker-compose build
 docker-compose up  
   
 4 - Acesse localhost em seu navegador para ver a página inicial (com botão de login)  
-5 - No terminal digite o seguinte comando para criar um usuário e senha:  
+5 - Em outro terminal digite o seguinte comando para criar um usuário e senha:  
   
 ./manage.py createsuperuser  
   
 6 - Depois de criar o usuário no terminal, volte ao localhost em seu navegador e faça login.  
 7 - Adicione suas tarefas :)  
 
+Obs.: Pare o projeto com ctrl+C no primeiro terminal e espere os containers pararem.
 
 ## O que pode dar errado?  
   
