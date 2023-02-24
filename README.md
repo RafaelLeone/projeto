@@ -1,7 +1,7 @@
 # Passo a passo do primeiro teste:  
   
 1 - Clone o repositório  
-2 - Acesse a pasta clonada (ex.: cd projeto)  
+2 - Acesse a pasta clonada (ex.: cd projeto) e depois a pasta do projeto (cd mytodolist)
 3 - Rode os seguintes comandos:  
   
 docker-compose build  
