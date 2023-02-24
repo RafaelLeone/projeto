@@ -26,6 +26,7 @@ Para tirar os containers que subimos agora. Rode:
 docker ps  
 Se ainda houver containers pode ser necessário pará-los com:  
 docker kill "número-do-container"  
+Esse número geralmente está na primeria coluna do resultado do docker ps  
 
 2 - Pode haver portas já sendo utilizadas. Rode:  
 netstat -anp|grep "numero-da-porta"  
