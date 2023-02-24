@@ -15,7 +15,8 @@ docker-compose up
   
 6 - Depois de criar o usuário no terminal, volte ao localhost em seu navegador e faça login.  
 7 - Adicione suas tarefas :)  
-  
+
+
 ## O que pode dar errado?  
   
 1 - Pode haver outro docker rodando. Rode:  
@@ -32,3 +33,9 @@ Caso haja algum serviço em alguma dessas portas rode:
 kill -9 "numero-do-PID"  
 O PID vai ser o número antes da barra na útlima coluna.  
 É bom fazer o passo 1 antes de tentar o docker-compose up novamente!
+
+
+## Créditos ao projeto base:
+
+https://github.com/huogerac/djavue  
+https://github.com/evolutio/djavue2 (original)
